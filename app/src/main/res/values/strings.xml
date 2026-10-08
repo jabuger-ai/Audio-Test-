@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Audio Synthesizer</string>
+    <string name="title_synth_status">SYNTHESIZER STATUS</string>
+    <string name="status_off">POWER OFF</string>
+    <string name="status_on">SYNTHESIZING AUDIO</string>
+
+    <string name="notification_channel_name">Audio Synthesizer Service</string>
+    <string name="notification_channel_desc">Active playback for sine wave audio synthesis</string>
+    <string name="notification_title">Audio Synthesizer Running</string>
+    <string name="notification_content">Synthesizing frequency-modulated sine wave audio</string>
+    <string name="action_stop">STOP</string>
+
+    <string name="label_instantaneous_freq">Instantaneous Frequency</string>
+    <string name="label_center_freq">Base Pitch (Center Frequency)</string>
+    <string name="label_modulation_depth">Modulation Depth (Range)</string>
+    <string name="label_modulation_rate">Modulation Speed (LFO Rate)</string>
+    <string name="label_volume">Master Volume</string>
+
+    <string name="preset_title">SYNTHESIZER PRESETS</string>
+    <string name="preset_siren">Siren (Default)</string>
+    <string name="preset_wobble">Fast Wobble</string>
+    <string name="preset_vibrato">Subtle Vibrato</string>
+    <string name="preset_sweep">Deep Sweep</string>
+    <string name="preset_laser">Laser Beam</string>
+
+    <string name="unit_hz">%d Hz</string>
+    <string name="unit_hz_decimal">%.1f Hz</string>
+    <string name="unit_hz_rate">%.1f Hz (cycles/sec)</string>
+    <string name="unit_percent">%d%%</string>
+
+    <string name="info_banner">Continuous sine wave synthesis active in background via Foreground Service.</string>
+</resources>
